@@ -1,14 +1,9 @@
-/* GLOBAL */
-
 body {
     margin: 0;
     font-family: "Segoe UI", sans-serif;
     background: linear-gradient(135deg, #4f46e5, #06b6d4);
     height: 100vh;
 }
-
-
-/* CENTER WRAPPERS (LOGIN + QUIZ + RESULT) */
 
 .login-wrapper,
 .quiz-wrapper,
@@ -18,9 +13,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-
-/* COMMON CARD STYLE */
 
 .login-card,
 .quiz-card,
@@ -33,9 +25,6 @@ body {
     text-align: center;
 }
 
-
-/* HEADINGS */
-
 h2 {
     margin-bottom: 10px;
     color: #222;
@@ -45,9 +34,6 @@ h3,
 h4 {
     color: #444;
 }
-
-
-/* INPUT FIELDS */
 
 input {
     width: 100%;
@@ -63,9 +49,6 @@ input:focus {
     border-color: #4f46e5;
     box-shadow: 0 0 5px rgba(79, 70, 229, 0.3);
 }
-
-
-/* BUTTON */
 
 button {
     width: 100%;
@@ -83,17 +66,11 @@ button:hover {
     background: #3730a3;
 }
 
-
-/* ERROR */
-
 .error-msg {
     color: red;
     font-size: 13px;
     margin-top: 10px;
 }
-
-
-/* QUESTION TEXT */
 
 .question-text {
     font-size: 20px;
@@ -102,17 +79,11 @@ button:hover {
     line-height: 1.4;
 }
 
-
-/* OPTIONS CONTAINER */
-
 .options {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-
-
-/* OPTION BUTTON */
 
 .option-btn {
     padding: 14px 16px;
@@ -127,9 +98,6 @@ button:hover {
     transition: all 0.25s ease;
 }
 
-
-/* OPTION HOVER */
-
 .option-btn:hover {
     background: #4f46e5;
     color: white;
@@ -137,15 +105,9 @@ button:hover {
     transform: translateY(-2px);
 }
 
-
-/* CLICK EFFECT */
-
 .option-btn:active {
     transform: scale(0.98);
 }
-
-
-/* RESULT BOX */
 
 .score-box {
     margin: 20px 0;
@@ -153,9 +115,6 @@ button:hover {
     background: #f3f4f6;
     border-radius: 10px;
 }
-
-
-/* PASS / FAIL */
 
 .pass {
     color: green;
@@ -165,4 +124,15 @@ button:hover {
 .fail {
     color: red;
     font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }

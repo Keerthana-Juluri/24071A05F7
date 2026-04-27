@@ -35,6 +35,9 @@ function App() {
         />
 
       </Routes>
+      <footer className="footer">
+        ©  24071A05F7
+      </footer>
     </Router>
   );
 }
